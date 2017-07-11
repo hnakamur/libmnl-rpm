@@ -1,6 +1,6 @@
 Name:           libmnl
-Version:        1.0.3
-Release:        7%{?dist}
+Version:        1.0.4
+Release:        1%{?dist}
 Summary:        A minimalistic Netlink library
 
 Group:          System Environment/Libraries
@@ -71,6 +71,9 @@ mv examples examples-%{_arch}
 %{_libdir}/*.a
 
 %changelog
+* Tue Jul 11 2017 Hiroaki Nakamura <hnakamur@gmail.com> - 1.0.4-1
+- 1.0.4
+
 * Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.0.3-7
 - Mass rebuild 2014-01-24
 
